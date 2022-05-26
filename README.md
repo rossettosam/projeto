@@ -1,4 +1,4 @@
-# Placa solar inteligente #
+# Sistema com Placa Solar Automatizado #
 
 
 ## Descrição ##
