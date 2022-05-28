@@ -34,7 +34,65 @@ Os objetivos a serem alcançados consistem na experiência de saber como seria u
 
 ## Código fonte ##
 
-``` ... ```
+``` #include <Servo.h> //including the library of servo motor
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+Servo myservo;
+LiquidCrystal_I2C lcd(0x27,16,2);
+int initial_position = 90;
+int LDR1 = A0; //connect The LDR1 on Pin A0
+int LDR2 = A1; //Connect The LDR2 on pin A1
+int error = 5;
+int servopin=9; //You can change servo just makesure its on arduino's PWM pin
+int inicio = millis();
+void setup()
+{
+myservo.attach(servopin);
+pinMode(LDR1, INPUT);
+pinMode(LDR2, INPUT);
+myservo.write(initial_position); //Move servo at 90 degree
+delay(10);
+lcd.init();
+}
+void loop()
+{
+int R1 = analogRead(LDR1); // read LDR 1
+int R2 = analogRead(LDR2); // read LDR 2
+int diff1= abs(R1 - R2);
+int diff2= abs(R2 - R1);
+if((diff1 <= error) || (diff2 <= error)) {
+} else {
+if(R1 > R2)
+{
+initial_position = --initial_position;
+}
+if(R1 < R2)
+{
+initial_position = ++initial_position;
+}
+}
+myservo.write(initial_position);
+delay(100);
+if (millis()-inicio>1000){
+lcd.clear();
+lcd.setBacklight(HIGH);
+lcd.setCursor(0,0);
+lcd.print("LD1:");
+lcd.setCursor(4,0);
+lcd.print(R1);
+lcd.setCursor(8,0);
+lcd.print("LD2:");
+lcd.setCursor(12,0);
+lcd.print(R2);
+lcd.setCursor(0,1);
+lcd.print(" Projeto Solar");
+delay (100);
+inicio = millis();
+
+
+
+}
+} ```
 
 
 
