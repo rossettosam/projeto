@@ -28,7 +28,11 @@ Os objetivos a serem alcançados consistem na experiência de saber como seria u
 
 
 ## Montagem ##
-![WhatsApp Image 2022-05-28 at 14 10 49](https://user-images.githubusercontent.com/105353466/170837528-afe91d19-af78-40e8-ba09-f47f432bfbde.jpeg)
+![Imagem](./projetofotos/foto1.jpeg "Título")
+![Imagem](./projetofotos/foto2.jpeg "Título")
+![Imagem](./projetofotos/foto3.jpeg "Título")
+![Imagem](./projetofotos/foto4.jpeg "Título")
+
 
 
 
