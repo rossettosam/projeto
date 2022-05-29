@@ -28,10 +28,10 @@ Os objetivos a serem alcançados consistem na experiência de saber como seria u
 
 
 ## Montagem ##
-![Imagem](./projetofotos/foto1.jpeg "Título")
-![Imagem](./projetofotos/foto2.jpeg "Título")
-![Imagem](./projetofotos/foto3.jpeg "Título")
-![Imagem](./projetofotos/foto4.jpeg "Título")
+![Foto 1](https://user-images.githubusercontent.com/105395036/170888481-ff1f949a-7027-4eb0-9bad-088e10c7b615.jpeg)
+![Foto 2](https://user-images.githubusercontent.com/105395036/170888521-dce0ca3f-b25a-4c9e-8651-1671f1ca8488.jpeg)
+![Foto 3](https://user-images.githubusercontent.com/105395036/170888573-86543188-6bb5-4db7-9369-93824cb955f2.jpeg)
+![Foto 4](https://user-images.githubusercontent.com/105395036/170888597-5c2b3b23-5c77-433c-a397-3deaaf0579b2.jpeg)
 
 
 
@@ -96,7 +96,7 @@ inicio = millis();
 
 
 }
-} ```
+} 
 
 
 
