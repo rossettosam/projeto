@@ -29,8 +29,11 @@ Os objetivos a serem alcançados consistem na experiência de saber como seria u
 
 ## Montagem ##
 ![Foto 1](https://user-images.githubusercontent.com/105395036/170888481-ff1f949a-7027-4eb0-9bad-088e10c7b615.jpeg)
+
 ![Foto 2](https://user-images.githubusercontent.com/105395036/170888521-dce0ca3f-b25a-4c9e-8651-1671f1ca8488.jpeg)
+
 ![Foto 3](https://user-images.githubusercontent.com/105395036/170888573-86543188-6bb5-4db7-9369-93824cb955f2.jpeg)
+
 ![Foto 4](https://user-images.githubusercontent.com/105395036/170888597-5c2b3b23-5c77-433c-a397-3deaaf0579b2.jpeg)
 
 
@@ -97,6 +100,13 @@ inicio = millis();
 
 }
 } 
+```
+
+## Resultados ##
+
+Os resultados obtidos foram satisfatórios com o funcionamento mecânico do sistema, cumprindo o seu papel de ajustar a angulação das placas fotovoltaicas de acordo com a intensidade de luz de cada LDR, tendo os seus valores mostrados no display LCD. 
+Apesar da baixa produção de energia pela placa, conseguimos atingir o objetivo de ligar o LED. Porém, esperávamos um pouco a mais de produtividade dessa placa.
+Dentre as etapas, a mais trabalhosa foi a soldagem de componentes, por conta da pouca experiência que tivemos com esse processo. 
 
 
 
