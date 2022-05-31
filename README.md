@@ -23,7 +23,7 @@ Os objetivos a serem alcançados consistem na experiência de saber como seria u
 + Placa fotovoltaica 
 + LED
 + Resistores 
-+ 
+ 
 
 
 
@@ -35,6 +35,11 @@ Os objetivos a serem alcançados consistem na experiência de saber como seria u
 ![Foto 3](https://user-images.githubusercontent.com/105395036/170888573-86543188-6bb5-4db7-9369-93824cb955f2.jpeg)
 
 ![Foto 4](https://user-images.githubusercontent.com/105395036/170888597-5c2b3b23-5c77-433c-a397-3deaaf0579b2.jpeg)
+
+
+
+
+https://user-images.githubusercontent.com/105395036/171070793-c07c9ff1-ab5c-4396-9970-5e26a751dbe1.mp4
 
 
 
